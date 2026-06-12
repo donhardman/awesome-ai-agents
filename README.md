@@ -2273,26 +2273,27 @@ Coding, general purpose
 </details>
 
 ## [Octomind](https://github.com/muvon/octomind)
-Session-based AI development assistant
+Open-source, model-agnostic AI agent runtime
 
 <details>
 
 ![Session Demo](https://asciinema.org/a/wpZmOSOgFXp8HRzTltncgN7e3.svg)
 
 ### Category
-Coding, CLI
+Coding, CLI, Runtime
 
 ### Description
-Octomind is a session-based AI development assistant written in Rust with MCP support:
-- **Fully Extensible** — Configure any agent as MCP tool, custom commands with prompt templates
-- **Smart Context + Plan-First** — Semantic code search, knowledge graph, persistent memory, multi-step planning
-- **Provider Freedom** — 7 providers: OpenRouter, OpenAI, Anthropic, Google, Amazon, Cloudflare, DeepSeek
-- **Built-in Tools** — Shell, Editor, Search (ast_grep), Web browsing
+Octomind is an open-source, model-agnostic AI agent runtime written in Rust. Install agents, not frameworks.
+- **Tap Registry** — Community specialist agents (developer:rust, doctor:blood, lawyer:contracts, devops:kubernetes, finance:analyst, security:owasp)
+- **MCP Runtime Self-Extension** — Configure any agent as MCP tool, extend at runtime
+- **13+ Providers** — OpenRouter, OpenAI, Anthropic, Google, Amazon, Cloudflare, DeepSeek, and more
+- **Adaptive Compression** — Smart context management with semantic search, knowledge graph, persistent memory
+- **Zero Config** — Single binary, Homebrew/cargo/curl install, no setup required
 - **Multiple Run Modes** — Interactive session, WebSocket server, JSONL for CI/CD
 
 ### Links
 - [GitHub](https://github.com/muvon/octomind)
-- [Website](https://muvon.io)
+- [Website](https://octomind.run)
 
 </details>
 
